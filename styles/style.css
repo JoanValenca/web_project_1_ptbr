@@ -279,6 +279,8 @@
   list-style-type: none;
   text-decoration: none;
   color: #ffffff;
+  display: flex;
+  justify-content: space-between;
 }
 .footer__social-icons {
   width: 16px;
@@ -290,8 +292,4 @@
   justify-content: space-between;
   align-items: start;
   padding: 0;
-}
-.footer__column-link {
-  display: flex;
-  justify-content: space-between;
 }
