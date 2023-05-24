@@ -83,7 +83,7 @@ a:hover {
   width: 568px;
   background-color: #2f80ed;
   transform: rotate(-15deg);
-  animation: rotation 20s linear 0s infinite normal forwards;
+  animation: rotation 20s linear 0s infinite forwards;
 }
 .description {
   display: flex;
@@ -170,7 +170,10 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 100px;
+  background-image: linear-gradient(
+    #fff 0px calc(100% - 70px),
+    #f2f2f2 calc(100% - 70px) calc(100%)
+  );
 }
 .video__iframes {
   display: flex;
@@ -180,6 +183,13 @@ a:hover {
 }
 .video__iframe {
   list-style-type: none;
+}
+.oakley {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f2f2f2;
 }
 .section-title {
   text-align: center;
@@ -316,6 +326,7 @@ a:hover {
   right: -124px;
   width: 660px;
   height: 636px;
+  animation: rotation 20s linear 0s infinite forwards;
 }
 .footer {
   background-color: #1f1f1f;
