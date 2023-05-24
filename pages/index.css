@@ -1,0 +1,102 @@
+/* ------------------------------Global-------------------------------- */
+@import url(../Blocks/root/root.css);
+@import url(../Blocks/section-subtitle/section-subtitle.css);
+@import url(../Blocks/section-title/section-title.css);
+@import url(../Blocks/pages/page.css);
+
+/* -----------------------------/Header/----------------------------- */
+@import url(../Blocks/header/__link.css);
+@import url(../Blocks/header/__logo_place.css);
+@import url(../Blocks/header/__main-ilustration.css);
+@import url(../Blocks/header/__square-pic.css);
+@import url(../Blocks/header/__subtitle.css);
+@import url(../Blocks/header/__title.css);
+@import url(../Blocks/header/header.css);
+@import url(../Blocks/header/__span-accent.css;);
+
+/* -------------------------/description/---------------------------- */
+
+@import url(../Blocks/description/__main-text.css);
+@import url(../Blocks/description/__paragraph.css);
+@import url(../Blocks/description/__title.css);
+@import url(../Blocks/description/description.css);
+@import url(../Blocks/description/two-columns.css);
+@import url(../Blocks/section-title/section__title.css);
+@import url(../Blocks/section-subtitle/section__subtitle.css);
+
+/*---------------------------/techniques/----------------------------- */
+
+@import url(../Blocks/techniques/cards.css);
+@import url(../Blocks/techniques/cards__description.css);
+@import url(../Blocks/techniques/cards__image.css);
+@import url(../Blocks/techniques/cards__item.css);
+@import url(../Blocks/techniques/cards__title.css);
+@import url(../Blocks/techniques/techniques.css);
+
+/* -----------------------------/Video/----------------------------- */
+
+@import url(../Blocks/Video/video.css);
+@import url(../Blocks/Video/__iframE.css);
+@import url(../Blocks/Video/__iframes.css);
+
+/* -----------------------------/Oakley/----------------------------- */
+
+/* "Two columns" se repete em outras sections, como resolver isso para a metodologia BEM. */
+@import url(../Blocks/oakley/oakley.css);
+
+/* -----------------------------/Digits/----------------------------- */
+
+@import url(../Blocks/Digits/digits.css);
+@import url(../Blocks/Digits/table.css);
+@import url(../Blocks/Digits/table__cell.css);
+@import url(../Blocks/Digits/table__heading.css);
+@import url(../Blocks/Digits/table__text.css);
+
+/* -----------------------------/khan/----------------------------- */
+
+@import url(../Blocks/khan/khan.css);
+@import url(../Blocks/khan/khan__author.css);
+@import url(../Blocks/khan/khan__buy-link.css);
+@import url(../Blocks/khan/khan__quote-author-subline.css);
+@import url(../Blocks/khan/khan__quote-author.css);
+@import url(../Blocks/khan/khan__quote.css);
+@import url(../Blocks/khan/khan_title.css);
+@import url(../Blocks/khan/__book-pic.css);
+@import url(../Blocks/khan/__none-link.css);
+@import url(../Blocks/khan/__img.css);
+@import url(../Blocks/khan/__container.css);
+
+/* -----------------------------/feynman/----------------------------- */
+
+@import url(../Blocks/feynman/__theme_dark_subtitle.css);
+@import url(../Blocks/feynman/__theme_dark_title.css);
+@import url(../Blocks/feynman/feynman.css);
+@import url(../Blocks/feynman/feynman__image.css);
+@import url(../Blocks/feynman/feynman__link.css);
+@import url(../Blocks/feynman/feynman__link_none.css);
+@import url(../Blocks/feynman/feynman__subtitle.css);
+@import url(../Blocks/feynman/feynman__title.css);
+
+/* -----------------------------/kaufman/----------------------------- */
+
+@import url(../Blocks/kaufman/kaufman.css);
+@import url(../Blocks/kaufman/kaufman__triangle.css);
+@import url(../Blocks/kaufman/table__cell_theme_dark.css);
+
+/* -----------------------------/resources/----------------------------- */
+
+@import url(../Blocks/resources/__logo-zone.css);
+@import url(../Blocks/resources/__logo.css);
+@import url(../Blocks/resources/resources.css);
+
+/* -----------------------------/footer/----------------------------- */
+
+@import url(../Blocks/footer/__author.css);
+@import url(../Blocks/footer/__column-heading.css);
+@import url(../Blocks/footer/__column-link.css);
+@import url(../Blocks/footer/__columns.css);
+@import url(../Blocks/footer/__columns_content_copyright.css);
+@import url(../Blocks/footer/__list.css);
+@import url(../Blocks/footer/__place_footer.css);
+@import url(../Blocks/footer/__social-icons.css);
+@import url(../Blocks/footer/footer.css);

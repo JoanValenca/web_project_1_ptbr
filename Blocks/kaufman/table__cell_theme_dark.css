@@ -1,0 +1,11 @@
+/* including elements with key-value modifiers */
+.table__cell_theme_dark {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  padding-top: 80px;
+  z-index: 1;
+}

@@ -1,0 +1,4 @@
+.book__container {
+  display: flex;
+  gap: 48px;
+}

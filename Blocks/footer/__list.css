@@ -1,0 +1,7 @@
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 0;
+}
