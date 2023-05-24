@@ -387,6 +387,22 @@ a:hover {
   height: 636px;
   animation: rotation 20s linear 0s infinite forwards;
 }
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.resources__logo-zone {
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  margin: 80px auto 217px auto;
+}
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
 .footer {
   background-color: #1f1f1f;
   min-height: 350px;
