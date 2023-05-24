@@ -166,6 +166,21 @@ a:hover {
   font-weight: normal;
   margin-top: 16px;
 }
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.video__iframes {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  padding-top: 50px;
+}
+.video__iframe {
+  list-style-type: none;
+}
 .section-title {
   text-align: center;
   font-size: 60px;
