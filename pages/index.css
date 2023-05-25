@@ -93,7 +93,7 @@
 
 /* -----------------------------/footer/----------------------------- */
 
-@import url(../Blocks/footer/__author.css);
+@import url(../Blocks/footer/__author/__author.css);
 @import url(../Blocks/footer/__column-heading.css);
 @import url(../Blocks/footer/__column-link.css);
 @import url(../Blocks/footer/__columns.css);
