@@ -1,7 +1,10 @@
-.footer__column-link {
+.footer__list-column-link {
   list-style-type: none;
-  text-decoration: none;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
+}
+.footer__list-column-link a {
+  text-decoration: none;
+  color: #ffffff;
 }
