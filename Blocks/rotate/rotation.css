@@ -6,10 +6,7 @@
     transform: rotate(360deg);
   }
 }
-a:hover {
-  opacity: 50%;
-}
-* {
-  margin: 0;
-  padding: 0;
+
+.rotate {
+  animation: rotation 20s linear 0s infinite forwards;
 }

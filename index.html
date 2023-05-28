@@ -23,12 +23,12 @@
       </p>
       <img class="header__main-ilustration" src="./images/header-image.png"
         alt="Ilustração PNG, pessoa com roupas de frio em cima de uma montanha" />
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotate"></div>
     </header>
 
     <main class="content">
 
-      <div class="description">
+      <section class="description">
         <article class="two-columns">
           <h2 class="two-columns__brief">O maior problema da educação</h2>
           <div class="two-columns__main-text">
@@ -59,7 +59,7 @@
             </p>
           </div>
         </article>
-      </div>
+      </section>
 
       <section class="techniques">
         <h3 class="section-title">Aprender Técnicas</h3>
@@ -106,19 +106,17 @@
       <section class="video">
         <h3 class="section-title">Conversas TED</h3>
         <p class="section-subtitle">Para os amantes da procrastinação</p>
-        <ul class="video__iframes">
-          <li class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe></li>
-          <li class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe></li>
-        </ul>
+        <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
       </section>
 
-      <div class="oakley">
+      <section class="oakley">
         <article class="two-columns">
           <h3 class="two-columns__brief">A história de Barbara Oakley.</h3>
           <div class="two-columns__main-text">
@@ -132,7 +130,7 @@
               uma visão mais profunda e abrangente do assunto.</p>
           </div>
         </article>
-      </div>
+      </section>
 
       <section class="feynman">
         <h3 class="feynman__title">A Técnica de Feynman</h3>
@@ -157,7 +155,7 @@
             <p class="table__text">
               A porcentagem de adultos nos EUA que se consideram aprendizes
               para a vida toda</p>
-            <p> Centro de Pesquisas Pew</p>
+            <p class="table__text"> Centro de Pesquisas Pew</p>
           </li>
           <li class="table__cell">
             <h3 class="table__heading">1,000 terabytes</h3>
@@ -176,7 +174,8 @@
             <h3 class="table__heading">420 trilhões</h3>
             <p class="table__text">
               O número de adultos abaixo de 25 anos sem educação suficiente
-              para encontrar empregos Banco Mundial, 2017
+              para encontrar empregos -
+            <p class="table__text"> Banco Mundial, 2017</p>
             </p>
           </li>
           <li class="table__cell">
@@ -203,27 +202,30 @@
       </section>
 
       <section class="khan">
-        <p class="khan__author">Salman Khan </p>
-        <h3 class="khan__title">The One World Schoolhouse</h3>
-        <p class="khan__quote">A paixão e inovação de Sal Khan é transformar o aprendizado para milhões de estudantes no
-          mundo todo. O livro The One World Schoolhouse é uma leitura obrigatória para quem quer melhorar a educação e
-          que os estudantes habilidades e conhecimentos necessários na escola, na carreira, e na vida em geral.</p>
-        <h4 class="khan__quote-author">George Lucas</h4>
-        <p class="khan__quote-author-subline">Diretor</p>
-        <div class="khan__book-container">
-          <div class="khan__book-img"> <img class="khan__book-pic"
-              src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/khan-book-2.png"
-              alt="Foto png do livro 'The One World Schoolhouse: Education Reimagined'">
+        <div class="khan__container">
+          <p class="khan__author">Salman Khan </p>
+          <h3 class="khan__title">The One World Schoolhouse</h3>
+          <p class="khan__quote">A paixão e inovação de Sal Khan é transformar o aprendizado para milhões de estudantes
+            no
+            mundo todo. O livro The One World Schoolhouse é uma leitura obrigatória para quem quer melhorar a educação e
+            que os estudantes habilidades e conhecimentos necessários na escola, na carreira, e na vida em geral.</p>
+          <h4 class="khan__quote-author">George Lucas</h4>
+          <p class="khan__quote-author-subline">Diretor</p>
+          <div class="khan__book-container">
+            <div class="khan__book-img"> <img class="khan__book-pic"
+                src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/khan-book-2.png"
+                alt="Foto png do livro 'The One World Schoolhouse: Education Reimagined'">
+            </div>
+            <p class="khan__buy-link"><a class="khan__none-link" href="#">Comprar →</a></p>
           </div>
-          <p class="khan__buy-link"><a class="khan__none-link" href="#">Comprar →</a></p>
         </div>
       </section>
 
       <section class="kaufman">
-        <h3 class="kaufman__title section-title section-title-theme-dark">Dez princípios para adquirir habilidades de
+        <h3 class="section-title section-title-theme-dark">Dez princípios para adquirir habilidades de
           forma rápida
         </h3>
-        <p class="kaufman__subtitle section-subtitle section-subtitle-theme-dark">por Josh Kaufman</p>
+        <p class="section-subtitle section-subtitle-theme-dark">por Josh Kaufman</p>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -286,13 +288,13 @@
             </p>
           </li>
         </ul>
-        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="Triângulo azul">
+        <img class="kaufman__triangle rotate" src="./images/kaufman-triangle.svg" alt="Triângulo azul">
       </section>
     </main>
     <section class="resources">
       <h3 class="section-title">Recursos úteis</h3>
       <p class="section-subtitle">Material adicional sobre técnicas e hacks de aprendizagem.</p>
-      <div class="resources__logo-zone">
+      <article class="resources__logo-zone">
         <a href="#"><img class="resources__logo"
             src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/logo/resources-tedED.png"
             alt="logo: Fundo branco com nome 'TEDEd'"></a>
@@ -305,15 +307,15 @@
         <a href="#"><img class="resources__logo"
             src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/logo/resources-goodreads.png"
             alt="logo: Fundo branco com nome 'goodreads'"></a>
-      </div>
+      </article>
     </section>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__columns-content-copyright">
+        <div class="footer__column footer__column-content-copyright">
           <img class="footer__logo" src="./images/logo_place_footer.png" alt="Logo Praticum">
           <p class="footer__author">© 2023 Joan Valença</p>
         </div>
-        <div class="footer__columns-content-about">
+        <div class="footer__column footer__column-content-about">
           <h3 class="footer__column-heading">Sobre o Practicum da Yandex</h3>
           <ul class="footer__list">
             <li><a class="footer__list-column-link" href="#">Pagina Inicial</a></li>
@@ -321,13 +323,15 @@
             <li><a class="footer__list-column-link" href="#">Profissões</a></li>
           </ul>
         </div>
-        <div class="footer__columns-content-social">
+        <div class="footer__column footer__column-content-social">
           <h3 class="footer__column-heading">Mídia Social</h3>
           <ul class="footer__list">
-            <li class="footer__list-column-link"><a href="#"><img class="footer__social-icons"
-                  src="./images/facebook_white.svg" alt="Logo facebook"></a><a href="#">Facebook</a> </li>
-            <li class="footer__list-column-link"><a href="#"> <img class="footer__social-icons"
-                  src="./images/instagram_white.svg" alt="Logo instagram"></a><a href="#">Instagram</a></li>
+            <li><a class="footer__list-column-link" href="#"> <img class="footer__social-icons"
+                  src="./images/facebook_white.svg" alt="Logo facebook">Facebook</a>
+            </li>
+            <li><a class="footer__list-column-link" href="#"> <img class="footer__social-icons"
+                  src="./images/instagram_white.svg" alt="Logo instagram">Instagram</a>
+            </li>
           </ul>
         </div>
       </div>
