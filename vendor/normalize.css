@@ -8,9 +8,9 @@
  * 2. Evita ajustes do tamanho da fonte após alterações de orientação no iOS.
  */
 
-a:hover {
+/* a:hover {
   opacity: 50%;
-}
+} */
 
 html {
   line-height: 1.15; /* 1 */
