@@ -73,7 +73,6 @@
 @import url(../Blocks/khan/khan__quote.css);
 @import url(../Blocks/khan/khan_title.css);
 @import url(../Blocks/khan/__book-pic.css);
-@import url(../Blocks/khan/__none-link.css);
 @import url(../Blocks/khan/__container.css);
 @import url(../Blocks/khan/khan__container.css);
 
@@ -82,7 +81,6 @@
 @import url(../Blocks/feynman/feynman.css);
 @import url(../Blocks/feynman/feynman__image.css);
 @import url(../Blocks/feynman/feynman__link.css);
-@import url(../Blocks/feynman/feynman__link_none.css);
 @import url(../Blocks/feynman/feynman__subtitle.css);
 @import url(../Blocks/feynman/feynman__title.css);
 
@@ -90,12 +88,13 @@
 
 @import url(../Blocks/kaufman/kaufman.css);
 @import url(../Blocks/kaufman/kaufman__triangle.css);
-@import url(../Blocks/table/__theme_dark/table__cell_theme_dark.css);
 @import url(../Blocks/section-subtitle/Theme-dark/subtitle__theme_dark.css);
 @import url(../Blocks/section-title/Theme-dark/title__theme_dark.css);
 @import url(../Blocks/table/__theme_dark/__heading_theme_dark.css);
 @import url(../Blocks/table/__theme_dark/__cell_theme_dark.css);
 @import url(../Blocks/table/__theme_dark/__text_theme_dark.css);
+@import url(../Blocks/table/__theme_dark/__table_theme-dark.css);
+@import url(../Blocks/table/__theme_dark/table__cell_theme_dark.css);
 /* -----------------------------/resources/----------------------------- */
 
 @import url(../Blocks/resources/__logo-zone.css);

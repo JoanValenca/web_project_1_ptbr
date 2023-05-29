@@ -4,9 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./vendor/normalize.css" />
-  <!-- Revisor alega "Importe seu arquivo normalize.css de seu index.css", "index.css é inexistente no projeto".
-    Normalize.css esta importado corretamente ao projeto. Por favor, solicito uma melhor orietação-->
   <link rel="stylesheet" href="./pages/index.css" />
   <title>Aprendendo a aprender</title>
 </head>
@@ -139,7 +136,9 @@
           de Richard Feynman, um físico quântico mundialmente conhecido.
           A Técnica Feynman deriva dos seus métodos de estudo quando
           ele era um estudante em Princeton ao fundo de um círculo cor 'Bleu de France'">
-        <p class="feynman__link"> <a class="feynman__link-none" href="#">Mais →</a> </p>
+        <a class="feynman__link" href="#">
+          Mais →
+        </a>
       </section>
 
       <section class="digits">
@@ -215,11 +214,12 @@
           <h4 class="khan__quote-author">George Lucas</h4>
           <p class="khan__quote-author-subline">Diretor</p>
           <div class="khan__book-container">
-            <div class="khan__book-img"> <img class="khan__book-pic"
-                src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/khan-book-2.png"
-                alt="Foto png do livro 'The One World Schoolhouse: Education Reimagined'">
-            </div>
-            <p class="khan__buy-link"><a class="khan__none-link" href="#">Comprar →</a></p>
+            <img class="khan__book-pic"
+              src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/khan-book-2.png"
+              alt="Foto png do livro 'The One World Schoolhouse: Education Reimagined'">
+            <a class="khan__buy-link" href="#">
+              Comprar →
+            </a>
           </div>
         </div>
       </section>
@@ -293,25 +293,26 @@
         </ul>
         <img class="kaufman__triangle rotate" src="./images/kaufman-triangle.svg" alt="Triângulo azul">
       </section>
+      <section class="resources">
+        <h3 class="section-title">Recursos úteis</h3>
+        <p class="section-subtitle">Material adicional sobre técnicas e hacks de aprendizagem.</p>
+        <nav class="resources__logo-zone">
+          <a href="#"><img class="resources__logo"
+              src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/logo/resources-tedED.png"
+              alt="logo: Fundo branco com nome 'TEDEd'"></a>
+          <a href="#"><img class="resources__logo"
+              src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/logo/resources-Medium.png"
+              alt="logo: Fundo branco com nome 'Medium'"></a>
+          <a href="#"><img class="resources__logo"
+              src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/logo/resources-dezeen.png"
+              alt="logo: Fundo branco com nome 'dezeen'"></a>
+          <a href="#"><img class="resources__logo"
+              src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/logo/resources-goodreads.png"
+              alt="logo: Fundo branco com nome 'goodreads'"></a>
+        </nav>
+      </section>
     </main>
-    <section class="resources">
-      <h3 class="section-title">Recursos úteis</h3>
-      <p class="section-subtitle">Material adicional sobre técnicas e hacks de aprendizagem.</p>
-      <article class="resources__logo-zone">
-        <a href="#"><img class="resources__logo"
-            src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/logo/resources-tedED.png"
-            alt="logo: Fundo branco com nome 'TEDEd'"></a>
-        <a href="#"><img class="resources__logo"
-            src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/logo/resources-Medium.png"
-            alt="logo: Fundo branco com nome 'Medium'"></a>
-        <a href="#"><img class="resources__logo"
-            src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/logo/resources-dezeen.png"
-            alt="logo: Fundo branco com nome 'dezeen'"></a>
-        <a href="#"><img class="resources__logo"
-            src="./images/moved_sprint-2-sources-ptbr/sprint-2-sources-ptbr/images_sprint-2/logo/resources-goodreads.png"
-            alt="logo: Fundo branco com nome 'goodreads'"></a>
-      </article>
-    </section>
+
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column-content-copyright">
